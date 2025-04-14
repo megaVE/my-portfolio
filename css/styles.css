@@ -18,10 +18,22 @@
   box-sizing: border-box;
 }
 
-html { font-size: 62.5%; }
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  text-align: justify;
+  line-height: 1.5em;
+}
 
 a {
-  color: inherit;  
+  color: inherit;
+}
+
+img {
+  max-width: 90%;
 }
 
 .highlight {
@@ -130,6 +142,7 @@ a {
 #about-container #name {
   font-size: 4.2rem;
   margin-bottom: 1.5rem;
+  line-height: 1em;
 }
 
 #about-container #title {
@@ -147,13 +160,12 @@ a {
   margin-left: 1rem;
 
   li {
-    margin: 0.5rem 0;
+    margin: 1rem 0;
   }
 }
 
 #about-container #btn-projects {
   font-weight: bold;
-  font-size: 1.6rem;
   color: var(--main-text-color);
   background-color: var(--main-color);
   border: 0.2rem solid var(--main-color);
@@ -162,9 +174,11 @@ a {
   transition: 0.5s;
   margin: 2.5rem 0;
   padding: 1.2rem 1rem;
-  width: 15rem;
+  max-width: 18rem;
   text-align: center;
   display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 #about-container #btn-projects span,
@@ -188,6 +202,7 @@ a {
   padding-top: 2rem;
   margin-bottom: 2rem;
   font-size: 3.2rem;
+  line-height: 1em;
 }
 
 .skills-container {
@@ -215,9 +230,11 @@ a {
   font-weight: bold;
   padding-left: 1rem;
   border-left: 0.5rem solid var(--main-color);
+  text-transform: capitalize;
 }
 
-.skills-box i, .skills-box svg {
+.skills-box i,
+.skills-box svg {
   font-size: 4.5rem;
   margin-right: 1rem;
 }
@@ -294,5 +311,9 @@ a {
 
   .project a img {
     max-width: 95%;
+  }
+
+  .skills-box p span {
+    display: none;
   }
 }
