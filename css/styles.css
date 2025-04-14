@@ -3,7 +3,7 @@
 :root {
   --main-color: #14af00;
   --main-text-color: #ccffbc;
-  --border-color: #999;
+  --border-color: #ccffbc;
   --bio-bg-color: #280038;
   --bio-border-color: #78007c;
   --about-bg-color: #111821;
@@ -14,7 +14,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: /* Roboto */ sans-serif;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
 
@@ -34,6 +34,7 @@ a {
 
 img {
   max-width: 90%;
+  border-radius: 0.4rem;
 }
 
 .highlight {
@@ -161,6 +162,7 @@ img {
 
   li {
     margin: 1rem 0;
+    max-width: 75%;
   }
 }
 

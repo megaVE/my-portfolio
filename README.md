@@ -1,3 +1,1 @@
-# megaVE.portifolio.github.io
-My personal portifolio
-(Meu portifólio pessoal)
+# Meu Portfólio (My Portfolio)
